@@ -1,22 +1,5 @@
 body {
-  background-color: #bfe3e9;
-}
-
-section>p,
-ol,
-ul {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 500;
-}
-
-p>span {
-  color: #8b0a4b;
-}
-
-ol>li>sup {
-  color: #8b0a4b;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  background-color: #e9defb;
 }
 
 h1 {
@@ -25,6 +8,7 @@ h1 {
 
 h2 {
   margin-bottom: 1rem;
+  color: #20054b;
 }
 
 #myPhoto {
@@ -34,23 +18,30 @@ h2 {
   margin-right: 5rem;
 }
 
+section>p,
+ol,
+ul {
+  font-family: "Merriweather";
+  font-weight: 500;
+}
+
 .img-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.experience-language-container {
+.experience-container {
   display: flex;
   justify-content: space-between;
 }
 
-.achievements-games-container {
+.achievements-container {
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
 
 #games {
-  margin-right: 7rem;
+  margin-right: 5rem;
 }
